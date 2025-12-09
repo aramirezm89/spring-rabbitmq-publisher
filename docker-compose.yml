@@ -10,8 +10,8 @@ services:
       - RABBITMQ_DEFAULT_USER=aramirezm
       - RABBITMQ_DEFAULT_PASS=Ramirez1989
     volumes:
-      - ./rabbitmq/data/:/var/lib/rabbitmq/
-      - ./rabbitmq/log/:/var/log/rabbitmq
+      - ../rabbitmq/data/:/var/lib/rabbitmq/
+      - ../rabbitmq/log/:/var/log/rabbitmq
     networks:
       - rabbitmq_network
 
