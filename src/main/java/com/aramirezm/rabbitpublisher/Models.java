@@ -10,6 +10,7 @@ public class Models {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class Shape{
+        private String messageId;
         private String name;
         private Integer numberOfSides;
     }
@@ -18,6 +19,7 @@ public class Models {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class Color{
+        private String messageId;
         private String name;
         private String hexValue;
     }
